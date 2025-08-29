@@ -20,13 +20,13 @@ import (
 
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/proc"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/config"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/distro"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/osqd"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/osqdcli"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/pub"
+	"github.com/elastic/beats/v9/libbeat/beat"
+	"github.com/elastic/beats/v9/libbeat/common/proc"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/config"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/distro"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/osqd"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/osqdcli"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/pub"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

@@ -23,9 +23,9 @@ import (
 
 	"github.com/gofrs/uuid/v5"
 
-	"github.com/elastic/beats/v7/libbeat/otelbeat/oteltest"
-	libbeattesting "github.com/elastic/beats/v7/libbeat/testing"
-	"github.com/elastic/beats/v7/libbeat/tests/integration"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/oteltest"
+	libbeattesting "github.com/elastic/beats/v9/libbeat/testing"
+	"github.com/elastic/beats/v9/libbeat/tests/integration"
 	"github.com/elastic/elastic-agent-libs/testing/estools"
 )
 

@@ -9,12 +9,12 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	auditbeat "github.com/elastic/beats/v7/x-pack/auditbeat/cmd"
-	filebeat "github.com/elastic/beats/v7/x-pack/filebeat/cmd"
-	heartbeat "github.com/elastic/beats/v7/x-pack/heartbeat/cmd"
-	metricbeat "github.com/elastic/beats/v7/x-pack/metricbeat/cmd"
-	osquerybeat "github.com/elastic/beats/v7/x-pack/osquerybeat/cmd"
-	packetbeat "github.com/elastic/beats/v7/x-pack/packetbeat/cmd"
+	auditbeat "github.com/elastic/beats/v9/x-pack/auditbeat/cmd"
+	filebeat "github.com/elastic/beats/v9/x-pack/filebeat/cmd"
+	heartbeat "github.com/elastic/beats/v9/x-pack/heartbeat/cmd"
+	metricbeat "github.com/elastic/beats/v9/x-pack/metricbeat/cmd"
+	osquerybeat "github.com/elastic/beats/v9/x-pack/osquerybeat/cmd"
+	packetbeat "github.com/elastic/beats/v9/x-pack/packetbeat/cmd"
 )
 
 func prepareRootCommand() *cobra.Command {

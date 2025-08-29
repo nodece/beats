@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/entityanalytics/internal/collections"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/entityanalytics/provider/azuread/authenticator/mock"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/entityanalytics/provider/azuread/fetcher"
+	"github.com/elastic/beats/v9/x-pack/filebeat/input/entityanalytics/internal/collections"
+	"github.com/elastic/beats/v9/x-pack/filebeat/input/entityanalytics/provider/azuread/authenticator/mock"
+	"github.com/elastic/beats/v9/x-pack/filebeat/input/entityanalytics/provider/azuread/fetcher"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

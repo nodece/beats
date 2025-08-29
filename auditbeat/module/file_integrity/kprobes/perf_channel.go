@@ -22,7 +22,7 @@ package kprobes
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/auditbeat/tracing"
+	"github.com/elastic/beats/v9/auditbeat/tracing"
 )
 
 type perfChannel interface {

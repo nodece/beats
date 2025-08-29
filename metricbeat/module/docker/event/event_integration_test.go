@@ -30,9 +30,9 @@ import (
 	"github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"
 
-	"github.com/elastic/beats/v7/auditbeat/core"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/elastic/beats/v9/auditbeat/core"
+	"github.com/elastic/beats/v9/metricbeat/mb"
+	mbtest "github.com/elastic/beats/v9/metricbeat/mb/testing"
 	"github.com/elastic/elastic-agent-autodiscover/docker"
 	"github.com/elastic/elastic-agent-libs/logp/logptest"
 )

@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/elastic/beats/v9/libbeat/beat"
+	"github.com/elastic/beats/v9/libbeat/processors"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
@@ -30,7 +30,7 @@ import (
 // Config object for loading a pipeline instance via Load.
 type Config struct {
 	// Event processing configurations
-	mapstr.EventMetadata `config:",inline"`      // Fields and tags to add to each event.
+	mapstr.EventMetadata `config:",inline"` // Fields and tags to add to each event.
 	Processors           processors.PluginConfig `config:"processors"`
 
 	// Event queue

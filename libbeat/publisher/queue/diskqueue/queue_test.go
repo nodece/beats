@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue/queuetest"
+	"github.com/elastic/beats/v9/libbeat/publisher/queue"
+	"github.com/elastic/beats/v9/libbeat/publisher/queue/queuetest"
 	"github.com/elastic/elastic-agent-libs/logp/logptest"
 )
 

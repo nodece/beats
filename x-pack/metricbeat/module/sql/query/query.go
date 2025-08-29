@@ -11,8 +11,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/sql"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v9/metricbeat/helper/sql"
+	"github.com/elastic/beats/v9/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

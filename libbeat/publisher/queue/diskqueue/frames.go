@@ -17,7 +17,7 @@
 
 package diskqueue
 
-import "github.com/elastic/beats/v7/libbeat/publisher/queue"
+import "github.com/elastic/beats/v9/libbeat/publisher/queue"
 
 // Every data frame read from the queue is assigned a unique sequential
 // integer, which is used to keep track of which frames have been

@@ -24,12 +24,12 @@ import (
 
 	"github.com/gohugoio/hashstructure"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/acker"
-	"github.com/elastic/beats/v7/libbeat/management/status"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/elastic/beats/v9/filebeat/channel"
+	"github.com/elastic/beats/v9/filebeat/input"
+	"github.com/elastic/beats/v9/libbeat/beat"
+	"github.com/elastic/beats/v9/libbeat/common/acker"
+	"github.com/elastic/beats/v9/libbeat/management/status"
+	"github.com/elastic/beats/v9/libbeat/version"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"

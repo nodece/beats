@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/text/transform"
 
-	"github.com/elastic/beats/v7/libbeat/common/streambuf"
+	"github.com/elastic/beats/v9/libbeat/common/streambuf"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

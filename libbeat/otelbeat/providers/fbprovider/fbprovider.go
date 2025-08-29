@@ -22,7 +22,7 @@ import (
 
 	"go.opentelemetry.io/collector/confmap"
 
-	"github.com/elastic/beats/v7/libbeat/otelbeat/providers"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/providers"
 )
 
 const schemeName = "fb"

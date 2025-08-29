@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v9/metricbeat/mb"
 
 	"github.com/Azure/azure-sdk-for-go/services/preview/appinsights/v1/insights"
 	"github.com/Azure/go-autorest/autorest/date"

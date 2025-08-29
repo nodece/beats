@@ -30,7 +30,7 @@ import (
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/go-ucfg"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
+	"github.com/elastic/beats/v9/libbeat/autodiscover"
 )
 
 func TestConfigWithCustomBuilders(t *testing.T) {

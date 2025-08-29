@@ -8,7 +8,7 @@ import (
 	"os"
 	_ "time/tzdata" // for timezone handling
 
-	agentbeatcmd "github.com/elastic/beats/v7/x-pack/agentbeat/cmd"
+	agentbeatcmd "github.com/elastic/beats/v9/x-pack/agentbeat/cmd"
 )
 
 func main() {

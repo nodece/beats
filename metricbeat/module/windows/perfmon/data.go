@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/windows/pdh"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v9/metricbeat/helper/windows/pdh"
+	"github.com/elastic/beats/v9/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

@@ -23,8 +23,8 @@ import (
 	"github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
+	"github.com/elastic/beats/v9/metricbeat/mb"
+	"github.com/elastic/beats/v9/metricbeat/module/docker"
 )
 
 // init registers the MetricSet with the central registry.

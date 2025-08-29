@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sys/windows"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/x-pack/libbeat/reader/etw"
+	input "github.com/elastic/beats/v9/filebeat/input/v2"
+	"github.com/elastic/beats/v9/x-pack/libbeat/reader/etw"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/logp/logptest"
 	"github.com/elastic/elastic-agent-libs/mapstr"

@@ -20,8 +20,8 @@ package otelbeat
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/otelbeat/providers/fbprovider"
-	"github.com/elastic/beats/v7/libbeat/otelbeat/providers/mbprovider"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/providers/fbprovider"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/providers/mbprovider"
 
 	"go.opentelemetry.io/collector/confmap"
 )

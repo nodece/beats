@@ -19,14 +19,14 @@ import (
 	"go.opentelemetry.io/collector/otelcol"
 	"gopkg.in/yaml.v3"
 
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/otelbeat/beatconverter"
-	"github.com/elastic/beats/v7/libbeat/otelbeat/providers/fbprovider"
-	"github.com/elastic/beats/v7/libbeat/otelbeat/providers/mbprovider"
-	"github.com/elastic/beats/v7/libbeat/version"
-	"github.com/elastic/beats/v7/x-pack/filebeat/fbreceiver"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/mbreceiver"
-	"github.com/elastic/beats/v7/x-pack/otel/processor/beatprocessor"
+	"github.com/elastic/beats/v9/libbeat/cfgfile"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/beatconverter"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/providers/fbprovider"
+	"github.com/elastic/beats/v9/libbeat/otelbeat/providers/mbprovider"
+	"github.com/elastic/beats/v9/libbeat/version"
+	"github.com/elastic/beats/v9/x-pack/filebeat/fbreceiver"
+	"github.com/elastic/beats/v9/x-pack/metricbeat/mbreceiver"
+	"github.com/elastic/beats/v9/x-pack/otel/processor/beatprocessor"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

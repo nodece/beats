@@ -7,12 +7,12 @@ package instance
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/api"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/x-pack/libbeat/common/otelbeat/status"
-	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
+	"github.com/elastic/beats/v9/libbeat/api"
+	"github.com/elastic/beats/v9/libbeat/beat"
+	"github.com/elastic/beats/v9/libbeat/cfgfile"
+	"github.com/elastic/beats/v9/libbeat/cmd/instance"
+	"github.com/elastic/beats/v9/x-pack/libbeat/common/otelbeat/status"
+	_ "github.com/elastic/beats/v9/x-pack/libbeat/include"
 	metricreport "github.com/elastic/elastic-agent-system-metrics/report"
 
 	"go.opentelemetry.io/collector/component"

@@ -26,8 +26,8 @@ import (
 	"github.com/coreos/go-systemd/v22/dbus"
 	"github.com/go-viper/mapstructure/v2"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v9/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v9/metricbeat/mb"
 )
 
 // Config stores the config object

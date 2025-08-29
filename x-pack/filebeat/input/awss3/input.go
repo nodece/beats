@@ -7,10 +7,10 @@ package awss3
 import (
 	"fmt"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/feature"
-	"github.com/elastic/beats/v7/libbeat/statestore"
-	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
+	v2 "github.com/elastic/beats/v9/filebeat/input/v2"
+	"github.com/elastic/beats/v9/libbeat/feature"
+	"github.com/elastic/beats/v9/libbeat/statestore"
+	awscommon "github.com/elastic/beats/v9/x-pack/libbeat/common/aws"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/go-concert/unison"

@@ -26,9 +26,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elastic/beats/v7/filebeat/input/journald/pkg/journalfield"
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/common/backoff"
+	"github.com/elastic/beats/v9/filebeat/input/journald/pkg/journalfield"
+	input "github.com/elastic/beats/v9/filebeat/input/v2"
+	"github.com/elastic/beats/v9/libbeat/common/backoff"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

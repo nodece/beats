@@ -23,7 +23,7 @@ import (
 
 	"github.com/gofrs/uuid/v5"
 
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
+	"github.com/elastic/beats/v9/libbeat/cfgfile"
 	"github.com/elastic/elastic-agent-autodiscover/bus"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/keystore"

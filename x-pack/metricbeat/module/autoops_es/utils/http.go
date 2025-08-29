@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	"github.com/elastic/beats/v9/metricbeat/module/elasticsearch"
 )
 
 // HTTPResponse represents a custom error containing HTTP status code, status, and the original error.

@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/fileutil"
+	"github.com/elastic/beats/v9/libbeat/common"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/fileutil"
 	"github.com/elastic/elastic-agent-libs/logp"
 
 	"github.com/gofrs/uuid/v5"

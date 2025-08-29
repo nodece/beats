@@ -19,7 +19,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	v2 "github.com/elastic/beats/v9/filebeat/input/v2"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/logp/logptest"
 	"github.com/elastic/elastic-agent-libs/mapstr"
@@ -138,9 +138,9 @@ var serverPoolTests = []struct {
 		events: []target{
 			{
 				url: "http://127.0.0.1:9001/", wantHeader: http.Header{
-					"Content-Length": {"0"},
-					"Option-Header":  {"options-header-value"},
-				},
+				"Content-Length": {"0"},
+				"Option-Header":  {"options-header-value"},
+			},
 			},
 		},
 		wantStatus: http.StatusOK,
@@ -165,8 +165,8 @@ var serverPoolTests = []struct {
 		events: []target{
 			{
 				url: "http://127.0.0.1:9001/", wantHeader: http.Header{
-					"Content-Length": {"0"},
-				},
+				"Content-Length": {"0"},
+			},
 			},
 		},
 		wantStatus: http.StatusOK,

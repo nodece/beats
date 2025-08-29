@@ -49,7 +49,7 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/dev-tools/mage"
+	"github.com/elastic/beats/v9/dev-tools/mage"
 )
 
 const (

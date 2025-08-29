@@ -20,8 +20,8 @@ import (
 
 	"github.com/dolmen-go/contextio"
 
-	"github.com/elastic/beats/v7/libbeat/common/proc"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/fileutil"
+	"github.com/elastic/beats/v9/libbeat/common/proc"
+	"github.com/elastic/beats/v9/x-pack/osquerybeat/internal/fileutil"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"io"
 
-	win "github.com/elastic/beats/v7/winlogbeat/sys/wineventlog"
+	win "github.com/elastic/beats/v9/winlogbeat/sys/wineventlog"
 )
 
 // IsRecoverable returns a boolean indicating whether the error represents

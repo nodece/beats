@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/elastic/beats/v9/libbeat/publisher/queue"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

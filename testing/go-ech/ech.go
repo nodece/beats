@@ -32,7 +32,7 @@ import (
 
 	"github.com/elastic/go-elasticsearch/v8"
 
-	"github.com/elastic/beats/v7/libbeat/tests/integration"
+	"github.com/elastic/beats/v9/libbeat/tests/integration"
 )
 
 // VerifyEnvVars ensures that the env vars to connect to ES are set, and that the ES_HOST starts with https

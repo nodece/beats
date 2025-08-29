@@ -33,11 +33,11 @@ import (
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/elastic/go-elasticsearch/v8/esapi"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/heartbeat/esutil"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/processors/util"
+	"github.com/elastic/beats/v9/heartbeat/config"
+	"github.com/elastic/beats/v9/heartbeat/esutil"
+	"github.com/elastic/beats/v9/heartbeat/monitors/stdfields"
+	"github.com/elastic/beats/v9/libbeat/esleg/eslegclient"
+	"github.com/elastic/beats/v9/libbeat/processors/util"
 )
 
 func TestStatesESLoader(t *testing.T) {

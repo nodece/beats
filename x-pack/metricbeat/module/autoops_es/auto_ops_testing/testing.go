@@ -20,8 +20,8 @@ import (
 	"github.com/gofrs/uuid/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/autoops_es/utils"
+	"github.com/elastic/beats/v9/metricbeat/mb"
+	"github.com/elastic/beats/v9/x-pack/metricbeat/module/autoops_es/utils"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-libs/version"
 )

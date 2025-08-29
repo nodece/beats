@@ -9,9 +9,9 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	auditbeat "github.com/elastic/beats/v7/x-pack/auditbeat/cmd"
-	filebeat "github.com/elastic/beats/v7/x-pack/filebeat/cmd"
-	metricbeat "github.com/elastic/beats/v7/x-pack/metricbeat/cmd"
+	auditbeat "github.com/elastic/beats/v9/x-pack/auditbeat/cmd"
+	filebeat "github.com/elastic/beats/v9/x-pack/filebeat/cmd"
+	metricbeat "github.com/elastic/beats/v9/x-pack/metricbeat/cmd"
 )
 
 func prepareRootCommand() *cobra.Command {

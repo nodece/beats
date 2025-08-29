@@ -21,7 +21,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/statestore/backend"
+	"github.com/elastic/beats/v9/libbeat/statestore/backend"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 
