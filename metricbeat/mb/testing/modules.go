@@ -30,7 +30,7 @@ that Metricbeat does it and with the same validations.
 	import (
 		"github.com/stretchr/testify/assert"
 
-		mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+		mbtest "github.com/elastic/beats/v9/metricbeat/mb/testing"
 	)
 
 	func TestFetch(t *testing.T) {
@@ -61,10 +61,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/management/status"
+	"github.com/elastic/beats/v9/libbeat/management/status"
 	"github.com/elastic/go-concert/timed"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v9/metricbeat/mb"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp/logptest"
 )

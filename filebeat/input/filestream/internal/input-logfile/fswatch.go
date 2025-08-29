@@ -20,7 +20,7 @@ package input_logfile
 import (
 	"github.com/elastic/go-concert/unison"
 
-	"github.com/elastic/beats/v7/libbeat/common/file"
+	"github.com/elastic/beats/v9/libbeat/common/file"
 )
 
 const (

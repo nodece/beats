@@ -25,7 +25,7 @@ package journalctl
 import (
 	"sync"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
+	input "github.com/elastic/beats/v9/filebeat/input/v2"
 )
 
 // Ensure, that JctlMock does implement Jctl.

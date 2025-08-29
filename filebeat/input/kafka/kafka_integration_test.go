@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	beattest "github.com/elastic/beats/v7/libbeat/publisher/testing"
-	"github.com/elastic/beats/v7/testing/testutils"
+	v2 "github.com/elastic/beats/v9/filebeat/input/v2"
+	beattest "github.com/elastic/beats/v9/libbeat/publisher/testing"
+	"github.com/elastic/beats/v9/testing/testutils"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/logp/logptest"
@@ -41,9 +41,9 @@ import (
 
 	"github.com/elastic/sarama"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/json"
+	"github.com/elastic/beats/v9/libbeat/beat"
+	_ "github.com/elastic/beats/v9/libbeat/outputs/codec/format"
+	_ "github.com/elastic/beats/v9/libbeat/outputs/codec/json"
 )
 
 const (

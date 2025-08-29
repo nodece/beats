@@ -32,9 +32,9 @@ import (
 
 	"k8s.io/client-go/transport"
 
-	"github.com/elastic/beats/v7/libbeat/version"
-	"github.com/elastic/beats/v7/metricbeat/helper/dialer"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v9/libbeat/version"
+	"github.com/elastic/beats/v9/metricbeat/helper/dialer"
+	"github.com/elastic/beats/v9/metricbeat/mb"
 )
 
 var userAgent = useragent.UserAgent("Metricbeat", version.GetDefaultVersion(), version.Commit(), version.BuildTime().String())

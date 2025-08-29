@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/testing/integration"
+	"github.com/elastic/beats/v9/libbeat/testing/integration"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 
@@ -63,7 +63,7 @@ filebeat.inputs:
       hello: world
       number: 2
     file_identity.native: ~
-    prospector.scanner.fingerprint.enabled: false	  
+    prospector.scanner.fingerprint.enabled: false
 output.console:
   enabled: true
 `
@@ -107,7 +107,7 @@ filebeat.inputs:
       hello: world
       number: 2
     file_identity.native: ~
-    prospector.scanner.fingerprint.enabled: false	  
+    prospector.scanner.fingerprint.enabled: false
 output.console:
   enabled: true
 `

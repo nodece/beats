@@ -30,10 +30,10 @@ import (
 
 	"go.elastic.co/apm/module/apmelasticsearch/v2"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/productorigin"
-	"github.com/elastic/beats/v7/libbeat/common/transport/kerberos"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/elastic/beats/v9/libbeat/common"
+	"github.com/elastic/beats/v9/libbeat/common/productorigin"
+	"github.com/elastic/beats/v9/libbeat/common/transport/kerberos"
+	"github.com/elastic/beats/v9/libbeat/version"
 	cfg "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/testing"

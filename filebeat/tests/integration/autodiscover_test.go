@@ -43,7 +43,7 @@ import (
 	"sigs.k8s.io/kind/pkg/apis/config/v1alpha4"
 	"sigs.k8s.io/kind/pkg/cluster"
 
-	"github.com/elastic/beats/v7/libbeat/tests/integration"
+	"github.com/elastic/beats/v9/libbeat/tests/integration"
 	"github.com/elastic/elastic-agent-autodiscover/docker"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
@@ -111,9 +111,9 @@ func startFlogKubernetes(t *testing.T, tempDir string) (string, string, string) 
 		}
 	}()
 	provider := cluster.NewProvider(
-	// Uncomment the next line to have Kind logs written to stderr.
-	// You will also have to import "sigs.k8s.io/kind/pkg/cmd"
-	// cluster.ProviderWithLogger(cmd.NewLogger()),
+		// Uncomment the next line to have Kind logs written to stderr.
+		// You will also have to import "sigs.k8s.io/kind/pkg/cmd"
+		// cluster.ProviderWithLogger(cmd.NewLogger()),
 	)
 
 	clusterName := fmt.Sprintf("test-cluster-%s", uid)

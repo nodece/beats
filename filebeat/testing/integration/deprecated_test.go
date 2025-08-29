@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/testing/integration"
+	"github.com/elastic/beats/v9/libbeat/testing/integration"
 )
 
 func TestFilebeatDeprecated(t *testing.T) {
@@ -47,7 +47,7 @@ filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
   reload.enabled: true
 output.console:
-  enabled: true  
+  enabled: true
 `
 
 		test := NewTest(t, TestOptions{

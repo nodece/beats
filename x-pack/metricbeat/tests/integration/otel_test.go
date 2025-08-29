@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	libbeattesting "github.com/elastic/beats/v7/libbeat/testing"
-	"github.com/elastic/beats/v7/libbeat/tests/integration"
+	libbeattesting "github.com/elastic/beats/v9/libbeat/testing"
+	"github.com/elastic/beats/v9/libbeat/tests/integration"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-libs/testing/estools"
 )
@@ -66,7 +66,7 @@ metricbeat:
      processes:
       - '.*'
      metricsets:
-      - cpu		
+      - cpu
 output:
   elasticsearch:
     hosts:
@@ -82,7 +82,7 @@ processors:
     - add_docker_metadata: ~
     - add_kubernetes_metadata: ~
 http.host: localhost
-http.port: {{.MonitoringPort}}	
+http.port: {{.MonitoringPort}}
 `
 
 	// start metricbeat in otel mode
@@ -509,7 +509,7 @@ metricbeat:
      processes:
       - '.*'
      metricsets:
-      - cpu		
+      - cpu
 output:
   elasticsearch:
     hosts:

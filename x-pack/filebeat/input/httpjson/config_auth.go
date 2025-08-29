@@ -19,7 +19,7 @@ import (
 	"golang.org/x/oauth2/endpoints"
 	"golang.org/x/oauth2/google"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v9/libbeat/common"
 )
 
 type authConfig struct {

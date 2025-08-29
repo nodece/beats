@@ -20,16 +20,16 @@ package processing
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/asset"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/fleetmode"
-	"github.com/elastic/beats/v7/libbeat/ecs"
-	"github.com/elastic/beats/v7/libbeat/features"
-	"github.com/elastic/beats/v7/libbeat/management"
-	"github.com/elastic/beats/v7/libbeat/mapping"
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/libbeat/processors/actions/addfields"
-	"github.com/elastic/beats/v7/libbeat/processors/timeseries"
+	"github.com/elastic/beats/v9/libbeat/asset"
+	"github.com/elastic/beats/v9/libbeat/beat"
+	"github.com/elastic/beats/v9/libbeat/common/fleetmode"
+	"github.com/elastic/beats/v9/libbeat/ecs"
+	"github.com/elastic/beats/v9/libbeat/features"
+	"github.com/elastic/beats/v9/libbeat/management"
+	"github.com/elastic/beats/v9/libbeat/mapping"
+	"github.com/elastic/beats/v9/libbeat/processors"
+	"github.com/elastic/beats/v9/libbeat/processors/actions/addfields"
+	"github.com/elastic/beats/v9/libbeat/processors/timeseries"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
@@ -104,7 +104,7 @@ func MakeDefaultSupport(
 ) SupportFactory {
 	return func(info beat.Info, log *logp.Logger, beatCfg *config.C) (Supporter, error) {
 		cfg := struct {
-			mapstr.EventMetadata `config:",inline"`      // Fields and tags to add to each event.
+			mapstr.EventMetadata `config:",inline"` // Fields and tags to add to each event.
 			Processors           processors.PluginConfig `config:"processors"`
 			TimeSeries           bool                    `config:"timeseries.enabled"`
 		}{}

@@ -21,7 +21,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/entityanalytics/provider/jamf/internal/jamf"
+	"github.com/elastic/beats/v9/x-pack/filebeat/input/entityanalytics/provider/jamf/internal/jamf"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

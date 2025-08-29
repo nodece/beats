@@ -34,11 +34,11 @@ import (
 
 	"github.com/prometheus/procfs"
 
-	"github.com/elastic/beats/v7/auditbeat/ab"
-	"github.com/elastic/beats/v7/auditbeat/core"
-	"github.com/elastic/beats/v7/libbeat/mapping"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/elastic/beats/v9/auditbeat/ab"
+	"github.com/elastic/beats/v9/auditbeat/core"
+	"github.com/elastic/beats/v9/libbeat/mapping"
+	"github.com/elastic/beats/v9/metricbeat/mb"
+	mbtest "github.com/elastic/beats/v9/metricbeat/mb/testing"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/go-libaudit/v2"
 	"github.com/elastic/go-libaudit/v2/auparse"
@@ -86,7 +86,7 @@ func TestSetPID(t *testing.T) {
 			clientMock: NewMock().
 				returnSendValue(1).
 				returnReceiveError(syscall.ENOBUFS). // first recv fails
-				returnReceiveError(syscall.EAGAIN).  // second is eagain, indicating it would block
+				returnReceiveError(syscall.EAGAIN). // second is eagain, indicating it would block
 				// now we retry the send
 				returnSendValue(1).
 				returnReceiveAckWithSeq(1),
@@ -109,7 +109,7 @@ func TestSetPID(t *testing.T) {
 			clientMock: NewMock().
 				returnSendValue(1).
 				returnReceiveError(syscall.ENOBUFS). // first recv fails
-				returnReceiveError(syscall.EAGAIN).  // second is eagain from the drain loop, indicating it would block
+				returnReceiveError(syscall.EAGAIN). // second is eagain from the drain loop, indicating it would block
 				// now we retry the send with error again
 				returnSendValue(2).
 				returnReceiveError(syscall.ENOBUFS).
@@ -135,7 +135,7 @@ func TestSetPID(t *testing.T) {
 			clientMock: NewMock().
 				returnSendValue(1).
 				returnReceiveError(syscall.ENOBUFS). // first recv fails
-				returnReceiveError(syscall.EBADFD),  // non-recoverable error
+				returnReceiveError(syscall.EBADFD), // non-recoverable error
 
 			controlMock:   NewMock().returnACK().returnStatus(),
 			expectedError: true,

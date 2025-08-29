@@ -7,8 +7,8 @@
 package cmd
 
 import (
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/x-pack/libbeat/common/otelbeat"
+	cmd "github.com/elastic/beats/v9/libbeat/cmd"
+	"github.com/elastic/beats/v9/x-pack/libbeat/common/otelbeat"
 )
 
 func addOTelCommand(command *cmd.BeatsRootCmd) {

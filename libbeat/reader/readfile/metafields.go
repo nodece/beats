@@ -20,8 +20,8 @@ package readfile
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	"github.com/elastic/beats/v7/libbeat/reader"
+	"github.com/elastic/beats/v9/libbeat/common/file"
+	"github.com/elastic/beats/v9/libbeat/reader"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

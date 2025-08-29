@@ -12,9 +12,9 @@ import (
 
 	"github.com/elastic/elastic-agent-libs/config"
 
-	"github.com/elastic/beats/v7/heartbeat/ecserr"
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/heartbeat/security"
+	"github.com/elastic/beats/v9/heartbeat/ecserr"
+	"github.com/elastic/beats/v9/heartbeat/monitors/plugin"
+	"github.com/elastic/beats/v9/heartbeat/security"
 )
 
 func init() {

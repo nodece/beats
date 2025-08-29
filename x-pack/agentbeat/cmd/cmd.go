@@ -7,8 +7,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/cmd"
+	"github.com/elastic/beats/v9/libbeat/cfgfile"
+	"github.com/elastic/beats/v9/libbeat/cmd"
 
 	"github.com/spf13/cobra"
 )

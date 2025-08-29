@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
-	netinput "github.com/elastic/beats/v7/filebeat/input/net"
-	"github.com/elastic/beats/v7/filebeat/input/net/nettest"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	netinput "github.com/elastic/beats/v9/filebeat/input/net"
+	"github.com/elastic/beats/v9/filebeat/input/net/nettest"
+	v2 "github.com/elastic/beats/v9/filebeat/input/v2"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/monitoring"

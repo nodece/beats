@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/v7/x-pack/agentbeat/cmd"
+	"github.com/elastic/beats/v9/x-pack/agentbeat/cmd"
 )
 
 var (

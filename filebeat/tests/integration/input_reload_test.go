@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/tests/integration"
+	"github.com/elastic/beats/v9/libbeat/tests/integration"
 )
 
 // This test checks all input-reloading related behavior
@@ -64,7 +64,7 @@ logging.level: debug
   paths:
    - %s
   file_identity.native: ~
-  prospector.scanner.fingerprint.enabled: false	   
+  prospector.scanner.fingerprint.enabled: false
 `
 	inputs := filepath.Join(tempDir, "inputs.d")
 	err := os.MkdirAll(inputs, 0777)

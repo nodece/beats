@@ -32,7 +32,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/auditbeat/tracing"
+	"github.com/elastic/beats/v9/auditbeat/tracing"
 
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

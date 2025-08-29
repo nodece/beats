@@ -7,7 +7,7 @@
 package cmd
 
 import (
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
+	cmd "github.com/elastic/beats/v9/libbeat/cmd"
 )
 
 func addOTelCommand(command *cmd.BeatsRootCmd) {

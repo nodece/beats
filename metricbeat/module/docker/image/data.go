@@ -22,7 +22,7 @@ import (
 
 	"github.com/docker/docker/api/types/image"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v9/libbeat/common"
 	"github.com/elastic/elastic-agent-autodiscover/docker"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
